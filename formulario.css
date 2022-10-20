@@ -1,0 +1,88 @@
+form{
+    background-color: coral;
+}
+
+input[type=text]{
+    /*width: 50%;*/
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; /*encaje la figura en el cuadro*/
+    border: 1px solid red;
+    border-radius: 4px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/57/57117.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 5%;
+    padding-left: 35px;
+
+    /*tipo - tiempo - forma*/
+    transition: width 0.4s ease-in-out;
+}
+input[type=password]{
+    border:none;
+    border-bottom: 2px solid blue;
+}
+
+#comentario{
+    background-color: red;
+}
+
+input[type="text"]:focus{
+    /*background-color:aqua;
+    border: 3px solid rosybrown;*/
+    width: 100%;
+}
+
+input[type=submit], input[type=button],input[type=reset]
+{
+    background-color: chartreuse;
+    color: white;
+    padding: 16px;
+    cursor:pointer
+}
+
+main{
+    padding-top: 160px;
+    width: 100%;
+    color: white;
+}
+table,th,td{
+    border: 1px solid black;
+}
+table td img{
+    width: 80%;
+}
+table{
+    width: 95%;border-collapse: separate;text-align: center;
+    margin: 0 auto;
+}
+p{
+    color: white;
+}
+header{
+    background-color: aquamarine;
+    text-align: center;
+    color:blue;
+}
+th{
+    height: 50px;
+}
+#texto{
+    text-align: justify ; padding: 5px;
+}
+body{
+    background-color: blue;
+    background-image: url(https://e.rpp-noticias.io/xlarge/2020/06/02/085808_951108.jpg);
+    background-repeat: no-repeat; /*sirve para que no se repita*/
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+nav{
+    background-color: aquamarine;
+    text-align: center;
+    color:blue;
+}
+

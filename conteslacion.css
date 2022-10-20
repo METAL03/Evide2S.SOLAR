@@ -1,0 +1,44 @@
+
+main{
+    padding-top: 160px;
+    width: 100%;
+    color: white;
+}
+table,th,td{
+    border: 1px solid black;
+}
+table td img{
+    width: 80%;
+}
+table{
+    width: 95%;border-collapse: separate;text-align: center;
+    margin: 0 auto;
+}
+p{
+    color: white;
+}
+header{
+    background-color: aquamarine;
+    text-align: center;
+    color:blue;
+}
+nav{
+    background-color: aquamarine;
+    text-align: center;
+    color:blue;
+}
+th{
+    height: 50px;
+}
+#texto{
+    text-align: justify ; padding: 5px;
+}
+body{
+    background-color: blue;
+    background-image: url(https://e.rpp-noticias.io/xlarge/2020/06/02/085808_951108.jpg);
+    background-repeat: no-repeat; /*sirve para que no se repita*/
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}

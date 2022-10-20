@@ -1,0 +1,86 @@
+body{
+    background-color: blue;
+    background-image: url(https://e.rpp-noticias.io/xlarge/2020/06/02/085808_951108.jpg);
+    background-repeat: no-repeat; /*sirve para que no se repita*/
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+header{
+    background-color: aquamarine;
+    text-align: center;
+    color:blue;
+}
+nav{
+    background-color: aquamarine;
+    text-align: center;
+    color:blue;
+}
+
+main{
+    color:aliceblue;
+}
+#mer{
+    color:skyblue;
+}
+#ven{
+    color:orange
+}
+
+h3{
+    color:brown;
+    text-decoration: underline;
+    font-weight: bold;/*negrita*/
+    /*sombra horizontal - sombra vertical - tamaño de sombra - color*/
+    text-shadow: 2px 1px 2px yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+p{
+    text-align: justify;
+    text-decoration: none;/*solo para lineas underline*/
+    letter-spacing:2px;/*separedor de letra*/
+    word-spacing: 2px;/*separedor de palabras*/
+    text-transform: lowercase;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+img{
+    /*Se redondee las esquinas*/
+    /*border-radius: 10px;*/
+
+    /*imagenes en miniatura*/
+    /*tamaño-tipo de borde-color de borde*/
+    /*tipos de borde*solid
+dotted
+double
+dashed
+groove
+ridge
+inset
+outset
+*/
+    /*border: 2px solid red;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;*/
+
+    /*responsive de una imagen*/
+    /* max-width: 100%;
+    height: auto; */
+
+    /* centrar una imagen  */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 40%;
+
+    /*imagen trasparente*/
+    /* opacity: 0.7; */
+    /* filtro */
+    /* filter: grayscale(100%); */
+    /* filter: blur(1px); */
+}
